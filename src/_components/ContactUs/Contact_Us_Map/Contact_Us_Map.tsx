@@ -7,6 +7,19 @@ import "./Contact_US.css";
 import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 
+type Office = {
+  city?: string;
+  address?: string;
+  phone?: string;
+  email?: string;
+};
+
+type OfficeAddress = {
+  [country: string]: {
+    title: string;
+    offices: Office[];
+  };
+};
 const Contact_Us_Map = () => {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
@@ -54,7 +67,7 @@ const Contact_Us_Map = () => {
     event.stopPropagation();
     setShowModal(true);
   };
-  const officeAddress = {
+  const officeAddress : OfficeAddress = {
     "United Kingdom": {
       title: "United Kingdom",
       offices: [
