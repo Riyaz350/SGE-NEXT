@@ -1,4 +1,4 @@
-# Shabuj Global Education NEXT JS project.
+# Shabuj Global Education NEXT JS project.[Live Link](https://sge-next-2.vercel.app)
 
 List of the bugs that I fixed recently.
 
