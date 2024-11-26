@@ -364,8 +364,7 @@ const Footer = () => {
                     </div>
                     <div className="collapse-content text-sm text-[#CACACA]">
                       <p>
-                        R.I. Tower(level 3),23/A MM Ali Road,Golpahar
-                        moor,Chattogram.
+                      Daliya Archade, 4th floor, NCC Road, Thalassery, Pilakool, Thalassery,Kerala 670101.
                       </p>
                     </div>
                   </div>
